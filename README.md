@@ -8,36 +8,36 @@ The project is structured as follows:
 
 ### 1. Importing Libraries and Data
 
-	Libraries: NumPy, Pandas, Matplotlib, Seaborn, NLTK, WordCloud.
-	Data: Importing and exploring the dataset containing customer reviews (df = pd.read_csv('7817_1.csv')).
+Libraries: NumPy, Pandas, Matplotlib, Seaborn, NLTK, WordCloud.
+Data: Importing and exploring the dataset containing customer reviews (df = pd.read_csv('amazon_product_data.csv')).
 
 ### 2. Data Exploration and Cleaning
 
-	Checking for null values and data types (df.info(), df.isnull().sum()).
-	Dropping irrelevant columns and extracting useful features such as review date (df.drop([...], axis=1, inplace=True)).
+Checking for null values and data types (df.info(), df.isnull().sum()).
+Dropping irrelevant columns and extracting useful features such as review date (df.drop([...], axis=1, inplace=True)).
 
 ### 3. Data Preprocessing
 
-	Tokenization, stopwords removal, and text cleaning using NLTK and regular expressions.
-	Custom sentiment dictionary and score adjustment (sid.lexicon.update(word_dict)).
+Tokenization, stopwords removal, and text cleaning using NLTK and regular expressions.
+Custom sentiment dictionary and score adjustment (sid.lexicon.update(word_dict)).
 
 ### 4. Sentiment Analysis
 
-	Using VADER SentimentIntensityAnalyzer to calculate sentiment scores for each review.
-	Categorizing sentiment scores into positive, neutral, or negative.
+Using VADER SentimentIntensityAnalyzer to calculate sentiment scores for each review.
+Categorizing sentiment scores into positive, neutral, or negative.
 
 ### 5. Results and Visualization
 
-	Grouping and visualizing sentiment data over time to observe trends.
-	Displaying final sentiment classifications and performing further analysis on specific categories.
+Grouping and visualizing sentiment data over time to observe trends.
+Displaying final sentiment classifications and performing further analysis on specific categories.
 
 ## Technologies and Libraries Used
 Programming Language: Python
 Libraries:
-	Data Manipulation: NumPy, Pandas
-	Data Visualization: Matplotlib, Seaborn, WordCloud
-	Natural Language Processing: NLTK
-	Text Preprocessing: re, string
+Data Manipulation: NumPy, Pandas
+Data Visualization: Matplotlib, Seaborn, WordCloud
+Natural Language Processing: NLTK
+Text Preprocessing: re, string
 
 ## Contributions and Acknowledgements
 This project was developed independently, but it relies on publicly available data and open-source libraries. Special thanks to the developers and maintainers of the libraries used.
