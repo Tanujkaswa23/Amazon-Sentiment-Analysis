@@ -40,7 +40,7 @@ Python
 #### Data Manipulation: 
 NumPy, Pandas
 #### Data Visualization: 
-Matplotlib, Seaborn, WordCloud
+Matplotlib, Seaborn
 #### Natural Language Processing: 
 NLTK
 #### Text Preprocessing: 
