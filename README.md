@@ -8,8 +8,10 @@ The project is structured as follows:
 
 ### 1. Importing Libraries and Data
 
-Libraries: NumPy, Pandas, Matplotlib, Seaborn, NLTK, WordCloud.
-Data: Importing and exploring the dataset containing customer reviews (df = pd.read_csv('amazon_product_data.csv')).
+#### Libraries: 
+NumPy, Pandas, Matplotlib, Seaborn, NLTK, WordCloud.
+#### Data: 
+Importing and exploring the dataset containing customer reviews (df = pd.read_csv('amazon_product_data.csv')).
 
 ### 2. Data Exploration and Cleaning
 
@@ -32,12 +34,17 @@ Grouping and visualizing sentiment data over time to observe trends.
 Displaying final sentiment classifications and performing further analysis on specific categories.
 
 ## Technologies and Libraries Used
-Programming Language: Python
-Libraries:
-Data Manipulation: NumPy, Pandas
-Data Visualization: Matplotlib, Seaborn, WordCloud
-Natural Language Processing: NLTK
-Text Preprocessing: re, string
+#### Programming Language: 
+Python
+#### Libraries:
+#### Data Manipulation: 
+NumPy, Pandas
+#### Data Visualization: 
+Matplotlib, Seaborn, WordCloud
+#### Natural Language Processing: 
+NLTK
+#### Text Preprocessing: 
+re, string
 
 ## Contributions and Acknowledgements
 This project was developed independently, but it relies on publicly available data and open-source libraries. Special thanks to the developers and maintainers of the libraries used.
