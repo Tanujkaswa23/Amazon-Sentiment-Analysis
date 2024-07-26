@@ -38,3 +38,6 @@ The project is structured as follows:
 		Data Visualization: Matplotlib, Seaborn, WordCloud
 		Natural Language Processing: NLTK
 		Text Preprocessing: re, string
+
+## Contributions and Acknowledgements
+This project was developed independently, but it relies on publicly available data and open-source libraries. Special thanks to the developers and maintainers of the libraries used.
